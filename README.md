@@ -1,9 +1,9 @@
-[![Build Status](https://secure.travis-ci.org/exabugs/node-wakame.png?branch=master)](http://travis-ci.org/exabugs/node-wakame)
-
 node-wakame
 ===========
 
 MeCab connector for Node.js
+
+[![Build Status](https://secure.travis-ci.org/exabugs/node-wakame.png?branch=master)](http://travis-ci.org/exabugs/node-wakame)
 
 [![NPM](https://nodei.co/npm/node-wakame.png?stars&downloads)](https://nodei.co/npm/node-wakame/) [![NPM](https://nodei.co/npm-dl/node-wakame.png)](https://nodei.co/npm/node-wakame/)
 
