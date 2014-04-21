@@ -11,14 +11,11 @@ Installation command is `npm install node-wakame`.
 ### Quick example
 
 ```javascript
-
 var should = require("should")
   , MeCab = require('node-wakame').MeCab
   ;
 
-    var mecab = new MeCab();
-
-    var process = mecab.parse("今日は残業");
+    var process = MeCab.parse("今日は残業");
 
     var result = [];
 
