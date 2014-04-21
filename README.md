@@ -5,6 +5,9 @@ MeCab connector for Node.js
 
 [![NPM](https://nodei.co/npm/node-wakame.png?stars&downloads)](https://nodei.co/npm/node-wakame/) [![NPM](https://nodei.co/npm-dl/node-wakame.png)](https://nodei.co/npm/node-wakame/)
 
+System Requirements
+-----
+
 ```
 $ echo '今日は残業' | mecab
 今日	名詞,副詞可能,*,*,*,*,今日,キョウ,キョー,,
