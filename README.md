@@ -4,6 +4,7 @@ node-wakame
 MeCab connector for Node.js
 
 [![Build Status](https://secure.travis-ci.org/exabugs/node-wakame.png?branch=master)](http://travis-ci.org/exabugs/node-wakame)
+[![Coverage Status](https://coveralls.io/repos/exabugs/node-wakame/badge.png?branch=master)](https://coveralls.io/r/exabugs/node-wakame?branch=master)
 
 [![NPM](https://nodei.co/npm/node-wakame.png?stars&downloads)](https://nodei.co/npm/node-wakame/) [![NPM](https://nodei.co/npm-dl/node-wakame.png)](https://nodei.co/npm/node-wakame/)
 
