@@ -1,6 +1,6 @@
 {
   "name": "node-wakame",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "MeCab connector for Node.js",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "url": "https://github.com/exabugs/node-wakame"
   },
   "keywords": [
+    "Stream",
     "Node.js",
     "MeCab"
   ],
