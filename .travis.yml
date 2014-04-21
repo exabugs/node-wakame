@@ -1,3 +1,7 @@
 language: node_js
 node_js:
   - 0.10
+before_install:
+   rpm -ivh http://r2space.github.io/SmartPackage/DA-SmartPackage-repository-1-0.x86_64.rpm
+   yum install DA-mecab
+   yum install DA-mecab-naist-jdic
