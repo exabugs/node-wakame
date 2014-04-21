@@ -9,17 +9,12 @@ var spawn = require('child_process').spawn
   , csv = require('csv')
   ;
 
-module.exports.MeCab = MeCab;
-
-function MeCab() {
-}
-
 /**
  * parse
  * @param input string or stream
  * @returns {*|CursorStream|null}
  */
-MeCab.prototype.parse = function (input) {
+exports.parse = function (input) {
 
   var mecab = spawn('mecab');
 
@@ -43,3 +38,4 @@ MeCab.prototype.parse = function (input) {
 
   return process;
 };
+

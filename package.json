@@ -1,6 +1,6 @@
 {
   "name": "node-wakame",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "MeCab connector for Node.js",
   "main": "index.js",
   "scripts": {
