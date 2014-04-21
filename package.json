@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/exabugs/node-wakame/issues"
   },
-  "homepage": "https://github.com/exabugs/node-wakame"
+  "homepage": "https://github.com/exabugs/node-wakame",
+  "dependencies": {
+    "csv": "latest"
+  }
 }
