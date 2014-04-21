@@ -44,3 +44,16 @@ var should = require("should")
       done(null, result, count);
     });
 ```
+
+### Example 1
+
+```javascript
+    var process = MeCab.parse("今日は残業");
+```
+
+### Example 2
+
+```javascript
+    var process = MeCab.parse(fs.createReadStream("path.to.text_file"));
+```
+
