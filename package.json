@@ -1,0 +1,23 @@
+{
+  "name": "node-wakame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exabugs/node-wakame"
+  },
+  "keywords": [
+    "Node.js",
+    "MeCab"
+  ],
+  "author": "exabugs@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exabugs/node-wakame/issues"
+  },
+  "homepage": "https://github.com/exabugs/node-wakame"
+}
