@@ -6,7 +6,7 @@
 "use strict";
 
 var should = require("should")
-  , MeCab = require('node-wakame')
+  , MeCab = require('../index.js')
   ;
 
 describe('MeCab', function () {
