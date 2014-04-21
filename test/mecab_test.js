@@ -30,7 +30,7 @@ describe('MeCab', function () {
 
     process.on('end', function (count) {
       result.should.eql({ '今日': 1, '残業': 2, '明日': 1 });
-      done(null, result, count);
+      done(null);
     });
 
   });
