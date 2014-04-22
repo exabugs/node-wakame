@@ -25,12 +25,12 @@ describe('MeCab', function () {
     });
 
     process.on('error', function (error) {
-      throw error;
+      done(error);
     });
 
     process.on('end', function (count) {
       result.should.eql({ '今日': 1, '残業': 2, '明日': 1 });
-      done();
+      done(null, result, count);
     });
 
   });
