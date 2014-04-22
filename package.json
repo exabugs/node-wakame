@@ -1,6 +1,6 @@
 {
   "name": "node-wakame",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "MeCab connector for Node.js",
   "main": "index.js",
   "scripts": {
@@ -27,12 +27,13 @@
   },
   "homepage": "https://github.com/exabugs/node-wakame",
   "devDependencies": {
-    "mocha": "latest",
-    "should": "latest",
+    "mocha": "^1.18.2",
+    "should": "^3.3.1",
+    "blanket": "^1.1.6",
     "coveralls": "^2.10.0",
-    "mocha-lcov-reporter": "0.0.1"
+    "mocha-lcov-reporter": "^0.0.1"
   },
   "dependencies": {
-    "csv": "latest"
+    "csv": "^0.3.7"
   }
 }
