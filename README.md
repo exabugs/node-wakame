@@ -8,6 +8,7 @@ MeCab connector for Node.js
 [![Code Climate](https://codeclimate.com/github/exabugs/node-wakame.png)](https://codeclimate.com/github/exabugs/node-wakame)
 [![Dependency Status](https://gemnasium.com/exabugs/node-wakame.svg)](https://gemnasium.com/exabugs/node-wakame)
 
+[![Dependency Status](https://david-dm.org/exabugs/node-wakame.png)](https://david-dm.org/exabugs/node-wakame)
 
 [![NPM](https://nodei.co/npm/node-wakame.png?stars&downloads)](https://nodei.co/npm/node-wakame/) [![NPM](https://nodei.co/npm-dl/node-wakame.png)](https://nodei.co/npm/node-wakame/)
 
