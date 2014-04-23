@@ -67,3 +67,7 @@ var should = require("should")
     var process = MeCab.parse(fs.createReadStream("path.to.text_file"));
 ```
 
+## License
+
+MIT license, go wild.
+
