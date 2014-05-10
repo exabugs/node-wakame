@@ -14,24 +14,24 @@ describe('MeCab', function () {
 
   it('Case 1 : String', function (done) {
 
-    var input = "今日は残業。明日も残業。";
-    var process = MeCab.parse(input);
+    var input = "今日は残業。明日も残業。ＡＢＣ。";
+    var mecab = MeCab.parse(input);
 
     var result = {};
 
-    process.on('record', function (record, index) {
+    mecab.on('record', function (record, index) {
       if (record[1] === '名詞') {
         var count = result[record[0]];
         result[record[0]] = count ? ++count : 1;
       }
     });
 
-    process.on('error', function (error) {
+    mecab.on('error', function (error) {
       done(error);
     });
 
-    process.on('end', function (count) {
-      result.should.eql({ '今日': 1, '残業': 2, '明日': 1 });
+    mecab.on('end', function (count) {
+      result.should.eql({ '今日': 1, '残業': 2, '明日': 1, abc: 1 });
       done(null, result, count);
     });
 
