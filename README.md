@@ -73,12 +73,14 @@ MIT license, go wild.
 
 ## Change Log
 
-1.0 → 1.1
+### 1.0 → 1.1
 Add Steming Filter.
-ex.
-(1) DoubleByte to SingleByte
+ - DoubleByte to SingleByte
+```
  ＡＢＣ → ABC
  １２３ → 123
-(2) Capital to Small
+```
+ - Capital to Small
+```
  iPhone → iphone
- 
+```
