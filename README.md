@@ -71,3 +71,16 @@ var should = require("should")
 
 MIT license, go wild.
 
+## Change Log
+
+### 1.0 → 1.1
+Add Steming Filter.
+ - DoubleByte to SingleByte
+```
+ ＡＢＣ → ABC
+ １２３ → 123
+```
+ - Capital to Small
+```
+ iPhone → iphone
+```
